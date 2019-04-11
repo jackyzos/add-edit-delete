@@ -9,7 +9,7 @@
         <label class="label" for="fullName">City Population</label>
         <input v-model="cityPopulation" class="input" type="text">
         </p>
-        <button class="button" @click="addCity()">Add City</button>
+        <button class="button" v-on:click="addCity()">Add City</button>
       </div>
   </div>
 </template>
@@ -18,14 +18,17 @@
 export default {
   data(){
     return{
-      name: '',
-      population: 0
+      city:{
+        id: uuidv4(),
+        name: null,
+        population: null
+      }
     }
   },
   methods: {
     addCity(){
       if (this.cityName.length > 0 && this.cityPopulation.length > 0) {
-        this.$store.commit('ADD_CITY')
+        this.$store.dispatch('ADD_CITY')
       }else {
         console.log('error somthing went wrong');
       }
@@ -34,7 +37,7 @@ export default {
   computed: {
     cityName: {
       get() {
-        return this.$store.getters.name
+        return this.$store.state.name
       },
       set(value) {
         this.$store.commit("CITY_NAME", value)
@@ -42,7 +45,7 @@ export default {
     },
     cityPopulation: {
       get() {
-        return this.$store.getters.population
+        return this.$store.state.population
       },
       set(value) {
           this.$store.commit("CITY_POPULATION", value)

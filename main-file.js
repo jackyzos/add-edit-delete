@@ -5,6 +5,8 @@ import store from './store'
 import routes from './router'
 import 'bulma/css/bulma.css'
 
+Vue.config.devTools = true
+
 Vue.use(VueRouter)
 
 var router = new VueRouter({

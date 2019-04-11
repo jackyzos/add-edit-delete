@@ -2,14 +2,14 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   entry: './main-file.js',
-//   devServer: {
-//     proxy: {
-//     '/api': {
-//       pathRewrite: { '^/api' : '' },
-//       target: 'http://localhost:3000'
-//     }
-//   }
-// },
+  devServer: {
+    proxy: {
+    '/api': {
+      pathRewrite: { '^/api' : '' },
+      target: 'http://localhost:3000'
+    }
+  }
+},
   mode: 'development',
   module: {
   rules: [

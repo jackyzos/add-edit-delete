@@ -8,7 +8,7 @@
 # install dependencies
 npm install
 
-# Run the Server on http://localhost:3000/
+# Run the Server on http://localhost:8080/
 
-npm run start
+npm run serve
 node server.js

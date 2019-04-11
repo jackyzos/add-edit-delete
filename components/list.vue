@@ -37,6 +37,9 @@ import add from './add.vue'
 import edit from './edit.vue'
 
 export default{
+  created() {
+   this.$store.dispatch("fetchCities")
+ },
     data(){
       return{
 
@@ -44,7 +47,7 @@ export default{
     },
     computed: {
       cities() { // hämtar allt from store
-             return this.$store.getters.getCities;
+             return this.$store.state.cities;
          }
     },
     components: {
@@ -52,7 +55,8 @@ export default{
     },
     methods:{
       deleteCity(index){
-          this.$store.commit('DELETE_CITY', index)
+          // this.$store.commit('DELETE_CITY', index)
+          this.$store.dispatch('DELETE_CITY', index)
           console.log('city removed');
       }
     }

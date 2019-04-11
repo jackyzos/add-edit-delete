@@ -59,7 +59,7 @@ export default {
 },
  mounted() {
         let id = this.$route.params.id
-        return this.city = this.$store.getters.getCities.find((p) => p.id === id) || {}
+        return this.city = this.$store.state.cities.find((p) => p.id === id) || {}
     },
 }
 // </script>
