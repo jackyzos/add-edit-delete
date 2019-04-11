@@ -31,21 +31,8 @@ export default {
       fetch(baseServerUrl +'/cities/' + index, {
         method: 'DELETE'
       }).then(() => {
-                  console.log('removed===>>>> ' + index);
-                  state.cities.splice(index, 1)
-              })
-    },
-    EDIT_CITY(state, index) {
-      fetch(baseServerUrl + '/cities/' + index, {
-        body: JSON.stringify({name: state.name, population: state.population}),
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        method: 'PUT'
-      }).then(() => {
-                  console.log('UPDATED ===>>>> ' + index);
-                  console.log(JSON.stringify(index));
-                  Vue.set(state, 'cities', index);
+                  console.log('city removed ===>>>> ' + index);
+                  // state.cities.splice(index, 1)
               })
     },
     CITY_NAME(state, payload) {
