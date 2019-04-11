@@ -1,12 +1,11 @@
 <template lang="html">
   <div class="container is-fluid">
-    <!-- <display-list></display-list> -->
   <router-view></router-view>
   </div>
 </template>
 
 <script>
-import display from './components/index.vue'
+
 
 export default{
     data(){
@@ -15,7 +14,6 @@ export default{
       }
     },
     components: {
-      'display-list': display
     }
 }
 </script>

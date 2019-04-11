@@ -206,42 +206,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
-/***/ "./components/index.vue":
-/*!******************************!*\
-  !*** ./components/index.vue ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_vue_vue_type_template_id_5dabfba7_scoped_true_lang_html___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.vue?vue&type=template&id=5dabfba7&scoped=true&lang=html& */ \"./components/index.vue?vue&type=template&id=5dabfba7&scoped=true&lang=html&\");\n/* harmony import */ var _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.vue?vue&type=script&lang=js& */ \"./components/index.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _index_vue_vue_type_template_id_5dabfba7_scoped_true_lang_html___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _index_vue_vue_type_template_id_5dabfba7_scoped_true_lang_html___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  \"5dabfba7\",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"components/index.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack:///./components/index.vue?");
-
-/***/ }),
-
-/***/ "./components/index.vue?vue&type=script&lang=js&":
-/*!*******************************************************!*\
-  !*** ./components/index.vue?vue&type=script&lang=js& ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=script&lang=js& */ \"./node_modules/vue-loader/lib/index.js?!./components/index.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[\"default\"]); \n\n//# sourceURL=webpack:///./components/index.vue?");
-
-/***/ }),
-
-/***/ "./components/index.vue?vue&type=template&id=5dabfba7&scoped=true&lang=html&":
-/*!***********************************************************************************!*\
-  !*** ./components/index.vue?vue&type=template&id=5dabfba7&scoped=true&lang=html& ***!
-  \***********************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_5dabfba7_scoped_true_lang_html___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=template&id=5dabfba7&scoped=true&lang=html& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./components/index.vue?vue&type=template&id=5dabfba7&scoped=true&lang=html&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_5dabfba7_scoped_true_lang_html___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_5dabfba7_scoped_true_lang_html___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=webpack:///./components/index.vue?");
-
-/***/ }),
-
 /***/ "./components/list.vue":
 /*!*****************************!*\
   !*** ./components/list.vue ***!
@@ -388,7 +352,7 @@ eval("/* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_index_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/index.vue */ \"./components/index.vue\");\n//\n//\n//\n//\n//\n//\n//\n\r\n\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\r\n    data(){\r\n      return{\r\n\r\n      }\r\n    },\r\n    components: {\r\n      'display-list': _components_index_vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]\r\n    }\r\n});\r\n\n\n//# sourceURL=webpack:///./App.vue?./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n\r\n\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\r\n    data(){\r\n      return{\r\n\r\n      }\r\n    },\r\n    components: {\r\n    }\r\n});\r\n\n\n//# sourceURL=webpack:///./App.vue?./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -413,18 +377,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n/
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\r\n  name: 'Update-City',\r\n  data(){\r\n    return{\r\n      city: {\r\n        name:null,\r\n        population: null\r\n      },\r\n   msg:'Current City Id',\r\n   msgEdit: ''\r\n    }\r\n  },\r\n  computed: {\r\n\r\n },\r\n  methods: {\r\n    save(){\r\n      let den = this\r\n      let id = den.$route.params.id\r\n      fetch('http://localhost:3000/cities/'+ id, {\r\n        body: JSON.stringify({ name: den.city.name, population: den.city.population }),\r\n        headers: {\r\n          'Content-Type': 'application/json'\r\n        },\r\n        method: 'PUT'\r\n      })\r\n  .then(function (response) {\r\n    return response.json()\r\n  })\r\n  .then(function (result) {\r\n    console.log('city updated');\r\n    den.$router.go(-1)\r\n    console.log(result)\r\n  })\r\n    }\r\n},\r\n mounted() {\r\n        let id = this.$route.params.id\r\n        return this.city = this.$store.getters.getCities.find((p) => p.id === id) || {}\r\n    },\r\n});\r\n// \n\n//# sourceURL=webpack:///./components/edit.vue?./node_modules/vue-loader/lib??vue-loader-options");
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/index.js?!./components/index.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib??vue-loader-options!./components/index.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _add_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add.vue */ \"./components/add.vue\");\n/* harmony import */ var _edit_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./edit.vue */ \"./components/edit.vue\");\n/* harmony import */ var _list_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./list.vue */ \"./components/list.vue\");\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\r\n\r\n\r\n\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\r\n    data(){\r\n      return{\r\n\r\n      }\r\n    },\r\n    computed: {\r\n      cities() { // hämtar allt from store\r\n             return this.$store.getters.getCities;\r\n         }\r\n    },\r\n    components: {\r\n      'list-items': _list_vue__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\r\n    },\r\n    methods:{\r\n      deleteCity(index){\r\n          this.$store.commit('DELETE_CITY', index)\r\n          console.log('city removed');\r\n      }\r\n    }\r\n});\r\n\n\n//# sourceURL=webpack:///./components/index.vue?./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -473,18 +425,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _c(\"div\", { staticClass: \"hero\" }, [\n        _vm.city.id == _vm.$route.params.id\n          ? _c(\"div\", [\n              _c(\"p\", [\n                _vm._v(_vm._s(_vm.msg) + \" : \" + _vm._s(_vm.$route.params.id))\n              ]),\n              _vm._v(\" \"),\n              _c(\"p\", { staticClass: \"control\" }, [\n                _c(\n                  \"label\",\n                  { staticClass: \"label\", attrs: { for: \"username\" } },\n                  [_vm._v(\"City Name\")]\n                ),\n                _vm._v(\" \"),\n                _c(\"input\", {\n                  directives: [\n                    {\n                      name: \"model\",\n                      rawName: \"v-model\",\n                      value: _vm.city.name,\n                      expression: \"city.name\"\n                    }\n                  ],\n                  staticClass: \"input\",\n                  attrs: { type: \"text\" },\n                  domProps: { value: _vm.city.name },\n                  on: {\n                    input: function($event) {\n                      if ($event.target.composing) {\n                        return\n                      }\n                      _vm.$set(_vm.city, \"name\", $event.target.value)\n                    }\n                  }\n                })\n              ]),\n              _vm._v(\" \"),\n              _c(\"p\", { staticClass: \"control\" }, [\n                _c(\n                  \"label\",\n                  { staticClass: \"label\", attrs: { for: \"fullName\" } },\n                  [_vm._v(\"City population\")]\n                ),\n                _vm._v(\" \"),\n                _c(\"input\", {\n                  directives: [\n                    {\n                      name: \"model\",\n                      rawName: \"v-model\",\n                      value: _vm.city.population,\n                      expression: \"city.population\"\n                    }\n                  ],\n                  staticClass: \"input\",\n                  attrs: { type: \"text\" },\n                  domProps: { value: _vm.city.population },\n                  on: {\n                    input: function($event) {\n                      if ($event.target.composing) {\n                        return\n                      }\n                      _vm.$set(_vm.city, \"population\", $event.target.value)\n                    }\n                  }\n                })\n              ]),\n              _vm._v(\" \"),\n              _c(\n                \"button\",\n                {\n                  staticClass: \"button\",\n                  on: {\n                    click: function($event) {\n                      $event.preventDefault()\n                      return _vm.save()\n                    }\n                  }\n                },\n                [_vm._v(\"Save\")]\n              ),\n              _vm._v(\" \"),\n              _c(\n                \"button\",\n                {\n                  staticClass: \"button\",\n                  on: {\n                    click: function($event) {\n                      return _vm.$router.go(-1)\n                    }\n                  }\n                },\n                [_vm._v(\"Cancel\")]\n              )\n            ])\n          : _vm._e()\n      ]),\n      _vm._v(\" \"),\n      _c(\"router-view\")\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./components/edit.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./components/index.vue?vue&type=template&id=5dabfba7&scoped=true&lang=html&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./components/index.vue?vue&type=template&id=5dabfba7&scoped=true&lang=html& ***!
-  \*****************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", {}, [_c(\"router-view\")], 1)\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./components/index.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
