@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="">
+  <div class="add-form">
     <div class="field is-grouped">
       <p class="control">
         <label class="label" for="username">City Name</label>
@@ -53,4 +53,10 @@ export default {
 </script>
 
 <style lang="css" scoped>
+button{
+  margin-top: 33px;
+}
+.add-form{
+  padding: 5px;
+}
 </style>
